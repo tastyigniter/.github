@@ -27,10 +27,9 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 3.0.6
-        - 3.0.5
-        - 3.0.4 (Stable)
-        - 3.0.4 (Beta)
+        - 3.2.x
+        - 3.1.x
+        - 3.0.x
         - Other (please detail)
     validations:
       required: true
