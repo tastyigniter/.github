@@ -1,4 +1,4 @@
-<p align="center"><a href="https://tastyigniter" target="_blank"><img src="https://tastyigniter.com/assets/ui/images/logos/logo-padded.png" width="400"></a></p>
+<p align="center"><a href="https://tastyigniter" target="_blank"><img src="https://tastyigniter.com/images/logos/logo-padded.png" width="400"></a></p>
 
 
 ## About TastyIgniter
