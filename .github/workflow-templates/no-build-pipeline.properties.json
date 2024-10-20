@@ -1,0 +1,14 @@
+{
+  "name": "TastyIgniter Package CI Workflow",
+  "description": "TastyIgniter Package CI (no build-assets step) workflow template.",
+  "iconName": "check-circle-fill",
+  "categories": [
+    "continuous-integration",
+    "testing",
+    "code-quality"
+  ],
+  "filePatterns": [
+    "composer.json$",
+    ".*\\.md$"
+  ]
+}

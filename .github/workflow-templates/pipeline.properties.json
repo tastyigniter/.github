@@ -1,0 +1,15 @@
+{
+  "name": "TastyIgniter CI Workflow",
+  "description": "TastyIgniter CI workflow template.",
+  "iconName": "check-circle-fill",
+  "categories": [
+    "continuous-integration",
+    "testing",
+    "code-quality"
+  ],
+  "filePatterns": [
+    "package.json$",
+    "composer.json$",
+    ".*\\.md$"
+  ]
+}
