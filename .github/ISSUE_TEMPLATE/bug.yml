@@ -3,6 +3,50 @@ description: File a bug report
 title: "[Bug]: "
 labels: ["Type: Bug"]
 body:
+  - type: dropdown
+    id: package
+    attributes:
+      label: Which package is affected?
+      description: Select the extension or theme you are having issues with.
+      default: 0
+      options:
+        - Core
+        - API Extension
+        - Automation Extension
+        - Broadcast Extension
+        - Cart Extension
+        - Coupons Extension
+        - Debugbar Extension
+        - Frontend Extension
+        - Giftup Extension
+        - Import/Export Extension
+        - Local Extension
+        - Orange Theme
+        - Pages Extension
+        - Payregister Extension
+        - Reports Extension
+        - Reservation Extension
+        - Shipday Extension
+        - Sms Notify Extension
+        - Socialite Extension
+        - Translate Extension
+        - User Extension
+        - Visitor Tracker Extension
+        - Webhook Extension
+        - Other (please detail)
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - 4.x
+        - 3.x
+        - Other (please detail)
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
@@ -19,17 +63,6 @@ body:
     attributes:
       label: What did you expect to happen?
       placeholder: Tell us what you didn't see!
-    validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 4.x
-        - 3.x
-        - Other (please detail)
     validations:
       required: true
   - type: dropdown
